@@ -1,5 +1,4 @@
-i=int(input())
-j=int(input())
+i,j=map(int,input().split())
 for v in range(i,j):
 	if(v%2==0):
-		print(v)
+		print(v,end=" ")
